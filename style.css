@@ -1,14 +1,13 @@
 body {
     background: #e1f9e3;
-    color: #7D4F50;
+    color: #ca8c8d;
     font-family: 'Courier New', monospace
 }
 
 h1 {
     text-align: center;
     font-size: 40px;
-    color: #7D4F50;
-    background-color: black;
+    color: #d19495;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -31,7 +30,7 @@ h2 {
 
   body {
       background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlQRvRylAKDG5naMV0RH1avOnnBeFesVS0Fg&usqp=CAU);
-      background: rgb(39, 41, 41);
+      background: rgb(69, 80, 80);
   }
 
   p {
@@ -56,6 +55,44 @@ h2 {
     margin-left: 400px;
   }
 
+    .albumgallery {
+      width: 180px;
+      height: auto;
+    }
+
+    #playlist {
+      display: flex;
+      justify-content: center;
+      padding-top: 30px;
+    }
+
+    #actingCareer {
+      text-align: left;
+      font-size: 20px;
+    }
+
+    li {
+      list-style-type: none;
+      text-align: center;
+      margin-left: 60px;
+     }
+
+    .media {
+      display: flex;
+      justify-content: left;
+      width:80px;
+      height: 70px;
+
+    }
+
+      .container {  
+        display: flex;  
+        justify-content: space-around;
+        font-weight: bold;
+        font-size: 20px;
+        background: rgb(136, 119, 119);
+      }
+      
   /*Only channge code below this line*/
   @media (max-height: 800px){
     font-size: 30px;
