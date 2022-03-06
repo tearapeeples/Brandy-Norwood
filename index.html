@@ -4,40 +4,68 @@
     <title>An Ode to Brandy</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  <body>
+
+  <body id="main-background">
+    <button id="dark-mode-btn" onclick="toggleDarkMode()">Change To Dark Mode</button>>
       <h1 id="mainHeading">Brandy Rayana Norwood</h1>
-      <h2>Thee Vocal Bible</h2>
+      <nav> 
+        <ul class="container">  
+          <li>Home</li>  
+          <li><a href="#life" class="nav-link">Early Life</a></li>  
+          <li><a href="#albumgallery" class="nav-link">Album Gallery</a></li>  
+          <li><a href="#connect" class="nav-link">Connect with Brandy</a></li>
+        </ul>
+      </nav>
       <img id="mainImage" src="https://pbs.twimg.com/media/FE0irZbWQAQp-ap?format=jpg&name=large" alt="Image of singer Brandy Norwood">
       <p>
-       <h3>Early Life</h3> 
-       <p id="earlyLife">She was born in McComb, Mississippi on February 11, 1979. Then in 1983, her family moved to Los Angeles, California.</span>  
-      <h3>Musical Career</h3>
-        <p id="musicalCareer">In 1993, Brandy signed with Atlantic Records at the age of 14. A year later, she released her self-titled debut album and it sold over six million copies worldwide.</span> 
-      <h4>Top Selling Records</h4>
-      <ul>
-        <li>"Have You Ever"</li>
-        <li>"The Boy Is Mine"</li>
-      </ul>
+       <h3 id="life">Early Life</h3> 
+       <p id="earlyLife"> She was born in McComb, Mississippi on February 11, 1979. Then in 1983, her family moved to Los Angeles, California.</p>  
+      
+       <h3>Musical Career</h3>
+        <p id="musicalCareer">In 1993, Brandy signed with Atlantic Records at the age of 14. A year later, she released her self-titled debut album and it sold over six million copies worldwide. As of 2022, Brandy has released 7 studio albums.</p> 
+      <section>
+        <img id="albumgallery" class="albumgallery" src="https://upload.wikimedia.org/wikipedia/en/2/25/Brandy_Norwood_%E2%80%93_Brandy_%28album%29.jpg" alt="Image of Brandy's Debut Album">
+        <img class="albumgallery" src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Brandy_never_say_never.jpg/220px-Brandy_never_say_never.jpg" alt="Image of Brandy's album Never Say Never">
+        <img class="albumgallery" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Brandy-Full_Moon.jpg/220px-Brandy-Full_Moon.jpg"  alt="Image of Brandy's album Full Moon">
+        <img class="albumgallery" src="https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Brandy_afrodisiac.jpg/220px-Brandy_afrodisiac.jpg" alt="Image of Brandy's album Afrodisiac">
+        <img class="albumgallery" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/Brandy-human.jpg/220px-Brandy-human.jpg" alt="Image of Brandy's album Human">
+        <img class="albumgallery" src="https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Brandy_Norwood_%E2%80%93_Two_Eleven.JPG/220px-Brandy_Norwood_%E2%80%93_Two_Eleven.JPG" alt="Image of Brandy's album Two Eleven">
+        <img class="albumgallery" src="https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Brandy_B7.jpg/220px-Brandy_B7.jpg" alt="Image of Brandy's album B7">
+      </section>
+
+      <section id="playlist">
+        <iframe src="https://open.spotify.com/embed/artist/05oH07COxkXKIMt6mIPRee" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </section>
+
       <h3>Acting Career</h3>
-      <ul>
+      <p> 
+        <ul id="actingCareer">
           <li>
-              <span>1993- </span> 
-              Brandy starred in "Thea" and earned a Young Artits Award nomination. 
+            1993 - Brandy starred in "Thea" and earned a Young Artists Award nomination.</li>
+          <li>
+             1996 - She then went on to star in the sitcom "Moesha" and the show ran for 6 seasons.
+          </li>
+          <li>
+            1997 - Brandy was the first Black actress to play the role of Cinderella on-screen. 
+           <li>
+            2012 - She played the character of Chardonay Pitts in the series "The Game".	
+           </li> 
+
+           <li>
+             2018 - Brandy also starred in the hit television show "Star" as Cassie. 
+           </li>
           </li>
 
-          <li>
-              <span>1996- </span>
-              Brandy starred in the sitcom Moesha and the show ran for 6 seasons.  
-          </li>
-      </ul>  
-      <h4> If you want to enjoy Thee Vocal Bible along with me, check out her music and social media below!</h4>
-      <h5 id="Youtube"><span>Youtube</span></h5> 
-      <a href="https://www.youtube.com/channel/UCYyLyRGNmzYNaX_PVPbotRA" target=" _blank">Brandy's Music on YouTube</a>
-      <h5 id="Spotify"><span>Spotify</span></h5>
-      <a href="https://open.spotify.com/artist/05oH07COxkXKIMt6mIPRee" target=" _blank">Brandy's Music on Spotify</a>
-      <h5 id="Instagram"><span>Instagram</span></h5>
-      <a href="https://www.instagram.com/brandy/?hl=en" target=" _blank">Brandy's Instagram</a>
+        </ul>
+        </p>
 
+      <p id="connect">   Want to connect with Brandy and enjoy more of her music? Visit the spotify link below! </p>
+    
+        <div id="mediaLinks">
+          <a href="https://open.spotify.com/artist/05oH07COxkXKIMt6mIPRee" target="_blank"> <img class="media"src="https://www.freepnglogos.com/uploads/spotify-logo-png/image-gallery-spotify-logo-21.png"></a>
+        </div>
       </p>
+      <script src="main.js"></script>
+
   </body>
 </html>
